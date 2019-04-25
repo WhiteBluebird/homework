@@ -4,9 +4,25 @@
 #include "pch.h"
 #include <iostream>
 
+using namespace std;
+
+
+
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	cout << "구구단" << endl;
+	cout << endl;
+	
+	int i, j;
+	for (i = 1; i <= 9; ++i)
+	{
+		cout << i << "단@@@@@" << endl;
+		for (j = 1; j <= 9; ++j)
+		{
+			cout << i << "*" << j << endl;
+		}
+		cout << endl;
+	}
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
