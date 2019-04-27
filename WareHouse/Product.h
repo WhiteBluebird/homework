@@ -2,7 +2,8 @@
 
 struct Product
 {
-
+	Product() = default;
+	Product(int _id);
 	virtual ~Product() {}
 
 	enum class Spacies {

@@ -2,10 +2,9 @@
 #include "Product.h"
 
 
-Product::Product()
+Product::Product(int _id) : m_Id(_id)
 {
 }
-
 
 Product::~Product()
 {
