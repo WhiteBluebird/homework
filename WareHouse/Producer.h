@@ -1,4 +1,3 @@
-#include "Market.h"
 #pragma once
 class Producer
 {
@@ -7,9 +6,6 @@ public:
 	~Producer();
 
 public:
-	int Receive(int CallOfReceive)
-	{
-		Market::m_Stock;
-	}
+	bool SellToMarket(int _id, int _howMany); // definition of a function must be once.
 };
 

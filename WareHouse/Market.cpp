@@ -20,3 +20,5 @@ Market::Market()
 Market::~Market()
 {
 }
+
+std::map<int, int> Market::m_Stock = {};

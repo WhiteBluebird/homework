@@ -6,6 +6,8 @@ public:
 	~Consumer();
 
 public:
-	int Release(int CallOfRelease);//√‚∞Ì
+
+	bool Buy(int _id, int _howMany);
+
 };
 
