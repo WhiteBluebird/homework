@@ -2,7 +2,7 @@
 #include "Market.h"
 
 
-int Market::Receive(int CallOfStock)
+/*int Market::Receive(int CallOfStock)
 {
 	
 }
@@ -10,7 +10,7 @@ int Market::Receive(int CallOfStock)
 int Market::Release(int CallOfStock)
 {
 
-}
+}*/
 
 Market::Market()
 {

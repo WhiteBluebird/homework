@@ -3,16 +3,26 @@
 
 #include "pch.h"
 #include "Product.h"
-
+#include "Producer.h"
 #include "Market.h"
 
 
 
 int main()
 {
-	Market Mart;
+	int CallOfRecive;//Producer 클래스의 Receive 함수에 사용될 인수
+	int CAllOfRelease;//Consumer 클래스의 Release 함수에 사용될 인수
+	std::string request;
+	std::cin >> request;
 
-	
+	switch
+	{
+	case:request == "recieve"
+		//Producer 클래스에서 Recieve실행
+		break;
+	case:request == "release"
+		//Consumer 클래스에서 Release실행
+	}
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
