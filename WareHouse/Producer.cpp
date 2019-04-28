@@ -1,7 +1,5 @@
 #include "pch.h"
 #include "Producer.h"
-#include "Market.h"
-
 
 Producer::Producer()
 {
@@ -12,9 +10,7 @@ Producer::~Producer()
 {
 }
 
-bool Producer::SellToMarket(int _id, int _howMany)
+int Producer::Receive(int CallOfReceive)
 {
-	if (_howMany <= 0) { return false; } // cannot sell 0 products
-	Market::m_Stock[_id] += _howMany;
-	return true;
+	Market::m_Stock = Market::m_Stock + CallOfReceive;
 }

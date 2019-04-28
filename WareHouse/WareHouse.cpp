@@ -4,8 +4,6 @@
 #include "pch.h"
 #include "Product.h"
 #include "Producer.h"
-#include "Consumer.h"
-
 #include "Market.h"
 
 
@@ -14,29 +12,16 @@ int main()
 {
 	int CallOfRecive;//Producer 클래스의 Receive 함수에 사용될 인수
 	int CAllOfRelease;//Consumer 클래스의 Release 함수에 사용될 인수
-	char request;
+	std::string request;
 	std::cin >> request;
 
-	// string cannot be arugment of switch. replaced with char.
-
-	Consumer cs1;
-	Market mk1;
-	Producer pd1;
-
-	//
-
-
-	//
-	switch (request) {
-	case 'B':
-		// cs1.Buy(...)
+	switch
+	{
+	case:request == "recieve"
+		//Producer 클래스에서 Recieve실행
 		break;
-
-	case 'S':
-		// pd1.SellToMarket(...)
-		break;
-
-	default:
+	case:request == "release"
+		//Consumer 클래스에서 Release실행
 		break;
 	}
 }
